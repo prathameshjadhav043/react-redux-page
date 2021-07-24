@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-redux-page/static/css/main.6f6b0d0e.chunk.css",
+    "main.js": "/react-redux-page/static/js/main.707914ff.chunk.js",
+    "main.js.map": "/react-redux-page/static/js/main.707914ff.chunk.js.map",
+    "runtime-main.js": "/react-redux-page/static/js/runtime-main.ee7b57ac.js",
+    "runtime-main.js.map": "/react-redux-page/static/js/runtime-main.ee7b57ac.js.map",
+    "static/js/2.740e61b7.chunk.js": "/react-redux-page/static/js/2.740e61b7.chunk.js",
+    "static/js/2.740e61b7.chunk.js.map": "/react-redux-page/static/js/2.740e61b7.chunk.js.map",
+    "index.html": "/react-redux-page/index.html",
+    "static/css/main.6f6b0d0e.chunk.css.map": "/react-redux-page/static/css/main.6f6b0d0e.chunk.css.map",
+    "static/js/2.740e61b7.chunk.js.LICENSE.txt": "/react-redux-page/static/js/2.740e61b7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee7b57ac.js",
+    "static/js/2.740e61b7.chunk.js",
+    "static/css/main.6f6b0d0e.chunk.css",
+    "static/js/main.707914ff.chunk.js"
+  ]
+}
