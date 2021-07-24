@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border-bottom: 1px solid #ebebeb;
+  z-index: -1;
+}
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #323e4d;
+}
+.main {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+.card {
+  display: flex;
+  width: 350px;
+  height: 42px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgb(207, 200, 200);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+}
+h3 {
+  color: #212529;
+  width: 200px;
+  font-size: 16px;
+  padding: 8px 15px;
+  font-weight: 600;
+}
+.space {
+  width: 100%;
+}
+.btn {
+  font-size: 12px;
+  font-weight: 200;
+  width: 58px;
+  height: 38px;
+  border: 0px solid;
+  border-left: 1px solid rgb(207, 200, 200);
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: rgba(112, 104, 104, 0.2);
+}
+.content_add {
+  z-index: 100;
+  height: 300px;
+  border: 1px solid rgb(207, 200, 200);
+  background-color: rgba(213, 234, 236, 0.6);
+}
+.task_add {
+  font-size: 12px;
+  margin: 15px;
+  color: gray;
+}
+.input_task,
+.User {
+  padding: 0px 4px;
+  width: 100%;
+  height: 30px;
+  margin: 8px 0px;
+  border: 1px solid rgb(188, 211, 191);
+  border-radius: 2px;
+  color: gray;
+}
+.date_time {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  padding: 0px;
+}
+.time-s,
+.date-s {
+  padding: 0px 4px;
+  color: gray;
+  margin: 10px 0px;
+  width: 150px;
+  height: 30px;
+  border: 1px solid rgb(188, 211, 191);
+  border-radius: 2px;
+}
+.btns {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.btn-d {
+  margin: 22px 5px;
+  border-radius: 0px solid;
+}
+.btn-c {
+  background-color: #fff;
+  color: black;
+}
+.btn-c:hover {
+  background-color: rgb(216, 210, 210);
+  cursor: pointer;
+}
+.btn-s {
+  background-color: green;
+  color: #fff;
+}
+.btn-s:hover {
+  cursor: pointer;
+  background-color: rgb(87, 145, 87);
+}
+
+.btn-c,
+.btn-s {
+  font-size: 14px;
+  font-weight: 540;
+  width: 60px;
+  height: 40px;
+  margin: 5px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+.content_added {
+  border: 1px solid rgb(207, 200, 200);
+  background-color: #fff;
+}
+.box {
+  padding: 10px;
+}
+.item {
+  display: flex;
+  margin: auto;
+  padding: 8px;
+  width: 100%;
+  height: 9vh;
+  border: 1px solid #cad2db;
+  border-radius: 8px;
+}
+.head {
+  display: flex;
+}
+img {
+  width: 45px;
+  height: 45px;
+  background-color: teal;
+  border-radius: 8px;
+}
+.item_d {
+  overflow: hidden;
+  margin: 2px 10px;
+  width: 80px;
+}
+h4 {
+  font-size: 11px;
+  font-weight: 600;
+}
+p {
+  font-size: 12px;
+  color: rgb(212, 57, 57);
+}
+.item_btn {
+  display: flex;
+  margin: 8px 0px;
+}
+.item_p {
+  margin: 8px 5px 0px 60px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(207, 200, 200);
+
+  border-radius: 2px;
+}
+.item_p:hover,
+.btn_:hover {
+  background-color: rgb(213, 236, 216, 0.6);
+  cursor: pointer;
+}
+.btn_ {
+  margin: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid rgb(207, 200, 200);
+}
